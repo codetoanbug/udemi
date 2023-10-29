@@ -1,0 +1,4 @@
+// There is also backend FREE_COURSE_CONTENT_LENGTH_LIMIT constant in udemy/lecture/api/v2/views.py.
+export const FREE_COURSE_CONTENT_LENGTH_LIMIT_HOURS = 2;
+export const FREE_COURSE_CONTENT_LENGTH_LIMIT = FREE_COURSE_CONTENT_LENGTH_LIMIT_HOURS * 60 * 60;
+export const FREE_COURSE_CONTENT_LENGTH_LIMIT_START_DATE = gettext('March 17, 2020');

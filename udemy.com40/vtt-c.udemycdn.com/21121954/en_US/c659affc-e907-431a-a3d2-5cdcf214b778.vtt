@@ -1,0 +1,218 @@
+WEBVTT
+
+1
+00:00:04.260 --> 00:00:05.583
+This course is based upon a
+
+2
+00:00:07.440 --> 00:00:10.135
+workshop that myself, Jérôme, and a lot of other people
+
+3
+00:00:10.205 --> 00:00:12.530
+have been using in the open source community for years.
+
+4
+00:00:13.150 --> 00:00:15.539
+It started out as Docker, then it became Docker and Swarm.
+
+5
+00:00:15.590 --> 00:00:16.960
+Then it became Docker and Kubernetes.
+
+6
+00:00:17.190 --> 00:00:20.639
+And so I've taken that, extended it to
+
+7
+00:00:20.640 --> 00:00:21.640
+add more information, and this
+
+8
+00:00:24.150 --> 00:00:25.821
+means that there are many people evolving this content,
+
+9
+00:00:25.940 --> 00:00:28.488
+which means you get the best of a bunch of different
+
+10
+00:00:28.503 --> 00:00:31.013
+brains. So thank you to that community and for all the PRs
+
+11
+00:00:31.350 --> 00:00:34.241
+and open source help with that because there's so much here
+
+12
+00:00:34.380 --> 00:00:36.830
+to learn. But even this course can't be everything
+
+13
+00:00:38.160 --> 00:00:40.169
+you need to learn a tool. You're going to
+
+14
+00:00:41.130 --> 00:00:42.631
+have to spend some time practicing. You're going to need to
+
+15
+00:00:42.632 --> 00:00:45.118
+research special issues per your setup, right, so
+
+16
+00:00:45.830 --> 00:00:47.619
+not everything is going to be in this course.
+
+17
+00:00:47.620 --> 00:00:48.991
+That's obvious, I guess, of any course.
+
+18
+00:00:49.020 --> 00:00:50.189
+I just want to say that upfront.
+
+19
+00:00:50.820 --> 00:00:53.554
+That's why we have the Slack community, Q&A, and all this
+
+20
+00:00:53.555 --> 00:00:55.760
+other stuff. This will take practice and this
+
+21
+00:00:57.450 --> 00:00:59.399
+course isn't designed to teach you feature-by-feature like
+
+22
+00:00:59.400 --> 00:01:00.400
+some courses might. That probably
+
+23
+00:01:02.460 --> 00:01:03.909
+isn't the best way to learn. We're going to learn by
+
+24
+00:01:03.910 --> 00:01:05.870
+digging in and trying to solve problems.
+
+25
+00:01:06.633 --> 00:01:08.691
+We're gonna deploy different applications.
+
+26
+00:01:08.880 --> 00:01:11.222
+We're gonna have one large project throughout this course,
+
+27
+00:01:11.660 --> 00:01:14.241
+but other small tools and utilities will be running.
+
+28
+00:01:14.960 --> 00:01:17.753
+That's going to hopefully help you learn the patterns and
+
+29
+00:01:18.000 --> 00:01:19.291
+the commands that you'll be using over and over.
+
+30
+00:01:19.292 --> 00:01:20.909
+And to get started with this, you
+
+31
+00:01:22.340 --> 00:01:24.069
+don't need a ton of Docker experience.
+
+32
+00:01:24.070 --> 00:01:27.269
+You definitely need to understand Docker, know
+
+33
+00:01:27.270 --> 00:01:28.433
+how to run containers, know how to build them.
+
+34
+00:01:28.590 --> 00:01:31.349
+But you don't have to necessarily be a Docker guru.
+
+35
+00:01:31.760 --> 00:01:33.573
+You do need some command line skills.
+
+36
+00:01:33.811 --> 00:01:36.591
+You need to know some basics around command lines and Bash
+
+37
+00:01:37.080 --> 00:01:38.746
+shells and similar things, but you
+
+38
+00:01:40.260 --> 00:01:41.822
+probably already have some of that, if you're familiar with
+
+39
+00:01:41.823 --> 00:01:44.279
+Docker and you've taken another course on it, like my
+
+40
+00:01:44.280 --> 00:01:48.269
+Docker Mastery course. We want to involve you
+
+41
+00:01:48.270 --> 00:01:50.669
+as much as possible, which is why when you see exercises
+
+42
+00:01:50.670 --> 00:01:54.209
+like this one, this
+
+43
+00:01:54.210 --> 00:01:56.079
+exercise is meant for you to do with me. Now, I'm going to
+
+44
+00:01:56.080 --> 00:01:58.290
+be doing it on the screen so you can always watch it if you
+
+45
+00:01:58.291 --> 00:02:01.349
+want, but you're definitely not going to get the synapses
+
+46
+00:02:01.350 --> 00:02:03.702
+in your brain working unless you're typing these
+
+47
+00:02:04.410 --> 00:02:06.961
+commands. And the nice thing is, we'll provide enough
+
+48
+00:02:06.962 --> 00:02:09.719
+installation options that you can even do this on an iPad
+
+49
+00:02:09.720 --> 00:02:11.632
+and a web browser, if you had to.
+
+50
+00:02:11.700 --> 00:02:14.241
+But ideally, you're following these exercises.
+
+51
+00:02:14.390 --> 00:02:16.860
+Notice that it'll be the parts that are dashed outlined
+
+52
+00:02:16.870 --> 00:02:17.997
+with the keyboard logo.
+
+53
+00:02:18.210 --> 00:02:19.582
+That keyboard logo means you
+
+54
+00:02:21.360 --> 00:02:22.116
+should be typing this along with me.
+

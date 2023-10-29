@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.000 --> 00:07.630
+Well, hello and welcome to Norwalk, Albertine's course, working with use cases in this course, we're
+
+00:07.630 --> 00:12.400
+going to cover everything you need to write, create and develop use cases.
+
+00:12.580 --> 00:17.140
+And we'll spend a lot of time looking at how we model all kinds of real world business solutions using
+
+00:17.140 --> 00:17.290
+them.
+
+00:17.770 --> 00:22.930
+So we'll be talking about use cases and diagramming and modeling and use case components and all that
+
+00:22.930 --> 00:24.730
+good stuff that you can see in the course syllabus.
+
+00:25.030 --> 00:29.470
+And along the way you'll be doing quite a bit of use case development yourself, because that's the
+
+00:29.470 --> 00:30.220
+whole point, right?
+
+00:30.730 --> 00:35.170
+There will be many opportunities for you to test your knowledge with quizzes and assignments, and I'm
+
+00:35.170 --> 00:36.910
+going to urge you to put your effort into them.
+
+00:37.330 --> 00:37.750
+Why?
+
+00:38.050 --> 00:40.210
+Because that's how you integrate the knowledge.
+
+00:40.240 --> 00:42.760
+That's where you do the majority of the real learning.
+
+00:43.740 --> 00:48.450
+This course is designed for anyone with fundamental knowledge of business analysis, but usually consider
+
+00:48.450 --> 00:49.770
+this to be an intermediate course.
+
+00:50.220 --> 00:55.560
+If you don't know a business analysis is or what a project is or what requirements are, I'll encourage
+
+00:55.560 --> 00:59.190
+you to hold up and take our fundamentals of business analysis course first.
+
+00:59.610 --> 01:01.200
+After that, come back to this one.
+
+01:02.140 --> 01:06.460
+I also encourage you to drop me a line if you have any questions or if you run into any roadblocks,
+
+01:06.730 --> 01:10.500
+my email address is Dogherty at Norwalk, Aberdeen Dotcom.
+
+01:11.020 --> 01:11.410
+Sure.
+
+01:11.410 --> 01:16.810
+Do some Googling around for any quick answers, but don't hesitate to e-mail me or ask a question in
+
+01:16.810 --> 01:17.380
+the lectures.
+
+01:18.160 --> 01:19.370
+So let me introduce myself.
+
+01:19.750 --> 01:20.860
+My name is Don Hussie.
+
+01:21.130 --> 01:25.900
+I'm a managing director with Norwalk, Aberdeen, and I'll be your instructor and use case guru for
+
+01:25.900 --> 01:26.860
+the remainder of the course.
+
+01:27.840 --> 01:33.000
+Prior to founding Norwalk and I was senior vice president with the large global bank in that role,
+
+01:33.000 --> 01:37.090
+I ran their BA Center of Excellence and also managed teams of business analysts.
+
+01:37.680 --> 01:42.900
+I was really fortunate to have a very talented team of TBAs with a wide variety of experience and skills
+
+01:43.110 --> 01:44.460
+and problems and obstacles.
+
+01:44.910 --> 01:49.260
+And leading a diverse team like this has given me a good amount of insight into the problems that both
+
+01:49.260 --> 01:51.910
+new and experienced MBAs run into.
+
+01:52.320 --> 01:56.280
+I've managed MBAs, developed MBAs, interviewed MBAs, hired MBAs.
+
+01:56.670 --> 01:59.070
+And you're going to benefit from all that experience in this course?
+
+02:00.110 --> 02:05.240
+Prior to doing all this, I was a B.A myself and a top investment bank, I worked on a wide variety
+
+02:05.240 --> 02:05.840
+of projects.
+
+02:06.220 --> 02:11.960
+The majority were systems related, building in enhancing the software the stockbrokers used and other
+
+02:11.960 --> 02:16.880
+projects were oriented towards changing how the bank operated and if you didn't involve any technology
+
+02:16.880 --> 02:17.140
+at all.
+
+02:17.480 --> 02:20.660
+And along the way I wrote about probably a million use cases or so.
+
+02:21.740 --> 02:26.690
+So that's me now before we dive into the course itself, I'll tell you a little bit about the company
+
+02:26.690 --> 02:28.830
+I work for Norwalk, Aberdeen.
+
+02:28.850 --> 02:33.290
+We are a leading provider of training with a very specific focus.
+
+02:34.010 --> 02:39.490
+We do training and coaching in business analysis only because that's what we're really good at.
+
+02:40.010 --> 02:44.780
+And for this reason, you're going to get an education in real world business analysis in this course.
+
+02:45.730 --> 02:52.660
+There can be a tendency in training to give students information that is either theoretical or just
+
+02:52.660 --> 02:55.810
+not very realistic or relevant to the day to day work.
+
+02:56.480 --> 03:02.350
+We're going to skip all that unimportant stuff and teach you what you need to do the job in the real
+
+03:02.350 --> 03:03.790
+world that you work in today.
+
+03:05.030 --> 03:07.940
+So with that out of the way, let's get started with use cases.

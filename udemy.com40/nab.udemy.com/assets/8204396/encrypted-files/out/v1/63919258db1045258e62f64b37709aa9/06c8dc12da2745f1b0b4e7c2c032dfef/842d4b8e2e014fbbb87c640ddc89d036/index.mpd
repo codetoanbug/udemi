@@ -1,0 +1,224 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" id="201" type="static" profiles="urn:mpeg:dash:profile:isoff-main:2011" mediaPresentationDuration="PT163.300S" minBufferTime="PT30S">
+    <Period id="1" start="PT0.000S" duration="PT163.300S">
+        <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1" bitstreamSwitching="true">
+            <Representation width="640" height="360" frameRate="30/1" codecs="avc1.4D401E" id="1" bandwidth="71394">
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="30000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_1_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_1_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="3161" d="180000" r="26"/>
+                        <S t="4863161" d="39000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation width="768" height="432" frameRate="30/1" codecs="avc1.4D401E" id="2" bandwidth="101624">
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="30000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_3_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_3_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="3161" d="180000" r="26"/>
+                        <S t="4863161" d="39000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation width="1024" height="576" frameRate="30/1" codecs="avc1.4D401F" id="3" bandwidth="146845">
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="30000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_5_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_5_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="3161" d="180000" r="26"/>
+                        <S t="4863161" d="39000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation width="1280" height="720" frameRate="30/1" codecs="avc1.4D401F" id="4" bandwidth="196698">
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="30000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_7_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_7_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="3161" d="180000" r="26"/>
+                        <S t="4863161" d="39000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation width="1920" height="1080" frameRate="30/1" codecs="avc1.4D4028" id="5" bandwidth="321404">
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="30000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_9_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_video_9_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="3161" d="180000" r="26"/>
+                        <S t="4863161" d="39000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet mimeType="audio/mp4" lang="eng" segmentAlignment="true">
+            <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="6" bandwidth="64613">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="48000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_2_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_2_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="0" d="290816"/>
+                        <S t="290816" d="288768"/>
+                        <S t="579584" d="286720"/>
+                        <S t="866304" d="288768" r="1"/>
+                        <S t="1443840" d="286720"/>
+                        <S t="1730560" d="288768"/>
+                        <S t="2019328" d="286720"/>
+                        <S t="2306048" d="288768" r="1"/>
+                        <S t="2883584" d="286720"/>
+                        <S t="3170304" d="288768" r="1"/>
+                        <S t="3747840" d="286720"/>
+                        <S t="4034560" d="288768"/>
+                        <S t="4323328" d="286720"/>
+                        <S t="4610048" d="288768" r="1"/>
+                        <S t="5187584" d="286720"/>
+                        <S t="5474304" d="288768" r="1"/>
+                        <S t="6051840" d="286720"/>
+                        <S t="6338560" d="288768"/>
+                        <S t="6627328" d="286720"/>
+                        <S t="6914048" d="288768" r="1"/>
+                        <S t="7491584" d="286720"/>
+                        <S t="7778304" d="63488"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="7" bandwidth="64613">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="48000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_4_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_4_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="0" d="290816"/>
+                        <S t="290816" d="288768"/>
+                        <S t="579584" d="286720"/>
+                        <S t="866304" d="288768" r="1"/>
+                        <S t="1443840" d="286720"/>
+                        <S t="1730560" d="288768"/>
+                        <S t="2019328" d="286720"/>
+                        <S t="2306048" d="288768" r="1"/>
+                        <S t="2883584" d="286720"/>
+                        <S t="3170304" d="288768" r="1"/>
+                        <S t="3747840" d="286720"/>
+                        <S t="4034560" d="288768"/>
+                        <S t="4323328" d="286720"/>
+                        <S t="4610048" d="288768" r="1"/>
+                        <S t="5187584" d="286720"/>
+                        <S t="5474304" d="288768" r="1"/>
+                        <S t="6051840" d="286720"/>
+                        <S t="6338560" d="288768"/>
+                        <S t="6627328" d="286720"/>
+                        <S t="6914048" d="288768" r="1"/>
+                        <S t="7491584" d="286720"/>
+                        <S t="7778304" d="63488"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="8" bandwidth="64613">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="48000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_6_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_6_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="0" d="290816"/>
+                        <S t="290816" d="288768"/>
+                        <S t="579584" d="286720"/>
+                        <S t="866304" d="288768" r="1"/>
+                        <S t="1443840" d="286720"/>
+                        <S t="1730560" d="288768"/>
+                        <S t="2019328" d="286720"/>
+                        <S t="2306048" d="288768" r="1"/>
+                        <S t="2883584" d="286720"/>
+                        <S t="3170304" d="288768" r="1"/>
+                        <S t="3747840" d="286720"/>
+                        <S t="4034560" d="288768"/>
+                        <S t="4323328" d="286720"/>
+                        <S t="4610048" d="288768" r="1"/>
+                        <S t="5187584" d="286720"/>
+                        <S t="5474304" d="288768" r="1"/>
+                        <S t="6051840" d="286720"/>
+                        <S t="6338560" d="288768"/>
+                        <S t="6627328" d="286720"/>
+                        <S t="6914048" d="288768" r="1"/>
+                        <S t="7491584" d="286720"/>
+                        <S t="7778304" d="63488"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="9" bandwidth="64613">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="48000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_8_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_8_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="0" d="290816"/>
+                        <S t="290816" d="288768"/>
+                        <S t="579584" d="286720"/>
+                        <S t="866304" d="288768" r="1"/>
+                        <S t="1443840" d="286720"/>
+                        <S t="1730560" d="288768"/>
+                        <S t="2019328" d="286720"/>
+                        <S t="2306048" d="288768" r="1"/>
+                        <S t="2883584" d="286720"/>
+                        <S t="3170304" d="288768" r="1"/>
+                        <S t="3747840" d="286720"/>
+                        <S t="4034560" d="288768"/>
+                        <S t="4323328" d="286720"/>
+                        <S t="4610048" d="288768" r="1"/>
+                        <S t="5187584" d="286720"/>
+                        <S t="5474304" d="288768" r="1"/>
+                        <S t="6051840" d="286720"/>
+                        <S t="6338560" d="288768"/>
+                        <S t="6627328" d="286720"/>
+                        <S t="6914048" d="288768" r="1"/>
+                        <S t="7491584" d="286720"/>
+                        <S t="7778304" d="63488"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="10" bandwidth="64613">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+                <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0"/>
+                <SegmentTemplate timescale="48000" presentationTimeOffset="0" startNumber="1" media="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_10_0_$Number$.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A" initialization="https://dash-enc-c.udemycdn.com/out/v1/63919258db1045258e62f64b37709aa9/06c8dc12da2745f1b0b4e7c2c032dfef/63db76b9f6724ab28febafd48f00fb91/0b5a4ce589de4bda9d3a4860e543ad6e/index_audio_10_0_init.mp4?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kYXNoLWVuYy1jLnVkZW15Y2RuLmNvbS9vdXQvdjEvNjM5MTkyNThkYjEwNDUyNThlNjJmNjRiMzc3MDlhYTkvMDZjOGRjMTJkYTI3NDVmMWIwYjRlN2MyYzAzMmRmZWYvNjNkYjc2YjlmNjcyNGFiMjhmZWJhZmQ0OGYwMGZiOTEvMGI1YTRjZTU4OWRlNGJkYTlkM2E0ODYwZTU0M2FkNmUvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY5ODQxMTIzMn19fV19&amp;Signature=Neu5QMnzVKI-c1gPhulkjh-IVKYxh-8MDNiUG2FYNxwfXLcy~GjH7fKPIackmpTUwmkpeKfVHbyYabPhjLowk0GSH4ld2amPSCUHWgRyH1vtPkzc-pcThCYx1WoHKGhz3bS5XeDT7CGugCapj8IvDLWDmzj6oNXrqw8ZcKrTUgRO9GC9rk77xAF1iY4krJfCt3qsmxU9xVuReIMwIiE4BqB4IeQcwh9qy6PNKVgYL4v~PgyvBCrCp0gFMc4eazyojVotGHuOHjk0qrpVh0VujfhtIlSxktCBqjPUgzeO014ppLL9L~mbgvTAiuiajZkbHfg6GeKHgU2VbdYPHX9TbQ__&amp;Key-Pair-Id=APKAITJV77WS5ZT7262A">
+                    <SegmentTimeline>
+                        <S t="0" d="290816"/>
+                        <S t="290816" d="288768"/>
+                        <S t="579584" d="286720"/>
+                        <S t="866304" d="288768" r="1"/>
+                        <S t="1443840" d="286720"/>
+                        <S t="1730560" d="288768"/>
+                        <S t="2019328" d="286720"/>
+                        <S t="2306048" d="288768" r="1"/>
+                        <S t="2883584" d="286720"/>
+                        <S t="3170304" d="288768" r="1"/>
+                        <S t="3747840" d="286720"/>
+                        <S t="4034560" d="288768"/>
+                        <S t="4323328" d="286720"/>
+                        <S t="4610048" d="288768" r="1"/>
+                        <S t="5187584" d="286720"/>
+                        <S t="5474304" d="288768" r="1"/>
+                        <S t="6051840" d="286720"/>
+                        <S t="6338560" d="288768"/>
+                        <S t="6627328" d="286720"/>
+                        <S t="6914048" d="288768" r="1"/>
+                        <S t="7491584" d="286720"/>
+                        <S t="7778304" d="63488"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>

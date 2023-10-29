@@ -1,0 +1,5 @@
+export const AUTOSUGGEST_LOADING_STATE = {
+    NOT_LOADED: 'NOT_LOADED',
+    LOADING: 'LOADING',
+    LOADED: 'LOADED',
+};

@@ -1,0 +1,1 @@
+No Content: https://www.datadoghq-browser-agent.com/us1/v4/datadog-rum.js
